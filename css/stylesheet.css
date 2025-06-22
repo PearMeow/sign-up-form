@@ -3,3 +3,66 @@
 *::after {
     box-sizing: border-box;
 }
+
+@font-face {
+    font-family: 'norsebold';
+    src: url('../fonts/norse-bold-webfont.woff2') format('woff2'),
+        url('../fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    height: 100vh;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 90vh;
+    margin: 0;
+}
+
+.sidebar {
+    position: relative;
+    flex: 1 0 40vh;
+    align-self: flex-start;
+}
+
+.front {
+    display: flex;
+    position: absolute;
+    width: 100%;
+    top: 100px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: 60px;
+    font-family: 'norsebold', serif;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.front>img {
+    width: 60px;
+}
+
+.credit {
+    position: absolute;
+    bottom: 10px;
+    text-align: center;
+    width: 100%;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+.side {
+    max-width: 100%;
+}
+
+.main {
+    flex: 1 1 auto;
+}
