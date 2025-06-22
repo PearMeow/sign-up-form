@@ -21,12 +21,12 @@ body {
     display: flex;
     height: 90vh;
     margin: 0;
+    align-items: flex-start;
 }
 
 .sidebar {
     position: relative;
-    flex: 1 0 40vh;
-    align-self: flex-start;
+    max-width: 33vw;
 }
 
 .front {
@@ -55,7 +55,7 @@ body {
     color: white;
 }
 
-a {
+.credit>a {
     color: white;
 }
 
@@ -64,5 +64,40 @@ a {
 }
 
 .main {
-    flex: 1 1 auto;
+    padding-left: 50px;
+}
+
+form>p>a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+.main>p {
+    font-family: sans-serif;
+}
+
+.main>p:first-child {
+    margin-top: 7vw;
+    margin-bottom: 0;
+}
+
+.main>p:nth-child(2) {
+    margin-top: 0;
+}
+
+.main>p:nth-child(4) {
+    margin-top: 40px;
+}
+
+span {
+    display: block;
+}
+
+.container {
+    display: flex;
+}
+
+.container>p {
+    margin: 10px 60px;
+    margin-left: 0px;
 }
