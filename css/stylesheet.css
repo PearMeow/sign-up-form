@@ -162,3 +162,21 @@ legend {
     box-shadow: 5px 5px 5px lightgrey;
     margin: 0 0 7px;
 }
+
+input {
+    padding: 2px;
+    font-size: 20px;
+    border: 2px solid lightgrey;
+    border-radius: 5px;
+    font-family: sans-serif;
+}
+
+input:focus {
+    outline: 2px solid blue;
+    box-shadow: 0 2px 5px grey;
+    border: 0;
+}
+
+input:invalid:not(:focus) {
+    border: 2px solid red;
+}
