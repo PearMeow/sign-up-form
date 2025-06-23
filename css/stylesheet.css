@@ -26,9 +26,8 @@ html {
 
 body {
     display: flex;
-    height: 90vh;
+    height: 100vh;
     margin: 0;
-    align-items: flex-start;
 }
 
 .sidebar {
@@ -40,7 +39,7 @@ body {
     display: flex;
     position: absolute;
     width: 100%;
-    top: 100px;
+    top: 33vh;
     height: 100px;
     justify-content: center;
     align-items: center;
@@ -68,32 +67,28 @@ body {
 
 .side {
     max-width: 100%;
+    height: 100vh;
 }
 
 .main {
+    display: flex;
+    flex-direction: column;
+}
+
+.main>* {
     padding-left: 50px;
 }
 
-form>p>a {
-    color: darkgreen;
-    text-decoration: none;
+.main>form {
+    flex: 1;
+    padding-left: 0;
+    display: flex;
+    flex-direction: column;
 }
 
-.main>p {
-    font-family: sans-serif;
-}
 
-.main>p:first-child {
-    margin-top: 7vw;
-    margin-bottom: 0;
-}
-
-.main>p:nth-child(2) {
-    margin-top: 0;
-}
-
-.main>p:nth-child(4) {
-    margin-top: 40px;
+.main>form>* {
+    padding-left: 50px;
 }
 
 span {
@@ -114,4 +109,38 @@ input {
 .container>p {
     margin: 10px 60px;
     margin-left: 0px;
+}
+
+.top {
+    background-color: #f3f3f3;
+    padding-top: 16vh;
+    padding-bottom: 10px;
+}
+
+.bottom>button {
+    font-family: sans-serif;
+}
+
+.bottom {
+    background-color: #f3f3f3;
+    font-family: sans-serif;
+    flex: 1;
+}
+
+.bottom a {
+    color: darkgreen;
+    text-decoration: none;
+}
+
+
+.top>p {
+    font-family: sans-serif;
+}
+
+.top>p:first-child {
+    margin-bottom: 0;
+}
+
+.top>p:nth-child(2) {
+    margin-top: 0;
 }
