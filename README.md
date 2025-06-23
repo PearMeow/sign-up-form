@@ -12,5 +12,5 @@ Features
 
 How to use this project
 --------
-Visit the page <a href="https://pearmeow.github.io/sign-up-form" rel="noopener noreferrer">here</a>!
+Visit the page <a href="https://pearmeow.github.io/sign-up-form" rel="noreferrer noopener">here</a>!
 Or clone the project and open up index.html on your favorite browser.
