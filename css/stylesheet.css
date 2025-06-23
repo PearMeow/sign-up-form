@@ -12,6 +12,13 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'DM Sans Regular';
+    font-style: normal;
+    font-weight: normal;
+    src: url('../fonts/DMSans-Regular.woff') format('woff');
+}
+
 html {
     height: 100vh;
     padding: 0;
@@ -91,6 +98,13 @@ form>p>a {
 
 span {
     display: block;
+    font-family: 'DM Sans Regular';
+    font-size: 15px;
+    letter-spacing: 4px;
+}
+
+input {
+    width: 250px;
 }
 
 .container {
