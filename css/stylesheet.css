@@ -138,7 +138,6 @@ input {
     text-decoration: none;
 }
 
-
 .top>p {
     font-family: sans-serif;
     font-size: 25px;
@@ -156,9 +155,10 @@ legend {
     padding: 0 0 20px 0;
     font-family: sans-serif;
     font-size: 20px;
-
 }
 
 .box {
     padding: 20px 0;
+    box-shadow: 5px 5px 5px lightgrey;
+    margin: 0 0 7px;
 }
